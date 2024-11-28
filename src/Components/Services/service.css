@@ -1,0 +1,66 @@
+.section-service{
+    position: relative;
+}
+.bubbles-container{
+    margin-top: 30px;
+}
+
+
+.service-container .right-bubbles{
+    position: absolute;
+    right: 0px;
+}
+
+.service-container .left-bubbles{
+    position: absolute;
+    left: 0px;
+}
+
+
+.section-service .main-heading h1{
+    padding-top: 40px;
+    font-size: 25px;
+    line-height: 52px;
+    font-weight: 700 !important;
+    text-align: center;
+    color: var(--font-color);
+    font-family: 'Roboto';
+}
+
+
+
+
+
+
+.services{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.services .service{
+    width: 18%;
+}
+
+
+
+@media (max-width: 1100px) {
+    .services .service{
+        width: 26%;
+    }
+}
+
+@media (max-width: 849px) {
+    .services .service{
+        width: 36%;
+    }
+}
+
+@media (max-width: 457px) {
+    .services .service{
+        width: 81% !important;
+    }
+}

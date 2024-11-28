@@ -1,0 +1,66 @@
+
+
+.card-container{
+    background-color: #fff;
+    min-width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 10px;
+    gap: 20px;
+    font-family: 'Roboto';
+    position:static;
+    z-index: 200;
+}
+
+.location-inner-heading{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+}
+.location-img img{
+    width: 100%;
+}
+
+.location-pins{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+
+.location-pin{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.location-pin i{
+    background-color: var(--font-color);
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.btn-location{
+    background-color: transparent;
+    border: 1px solid var(--font-color);
+    padding: 10px 30px;
+    border-radius: 100px;
+    color: var(--font-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    letter-spacing: 0.59px;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+.location-pins .location-pin p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+}

@@ -1,0 +1,124 @@
+
+
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+.main-container .review-container{
+    max-width:80%;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    padding: 30px;
+    box-shadow: 2px 3px 10px rgba(0,0,0,0.09),-2px -3px 10px rgba(0,0,0,0.09);
+    border-radius: 10px;
+}
+
+.review-container .profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.review-container .profile .photo figure img{
+    height: 120px;
+    aspect-ratio: 1;
+}
+
+.review-container .profile .user-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-details h5{
+    font-size: 25px;
+    line-height: 37.5px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.user-details p{
+    color: var(--text-color);
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 3%;
+}
+
+
+.review-container .rr--group svg{
+    max-width: 10px !important;
+    color: var(--main-color);
+}
+
+.section-review .slick-prev{
+    left: 30px !important;
+}
+.section-review .slick-prev,
+.section-review .slick-next{
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.section-review .slick-prev::before,
+.section-review .slick-next::before{
+    width: 100px !important;
+    color: var(--font-color) !important;
+    height: 100px !important;
+    font-size: 40px !important;
+    opacity: 1 !important;
+}
+
+.slick-next {
+    right: 27px !important; 
+    background: red;
+}
+
+
+
+.section-review .slick-dots{
+    bottom: 45px !important;
+}
+.section-review .slick-dots li{
+    font-size: 100px !important;
+}
+
+.section-review .slick-dots li button:before {
+    font-size: 12px !important;
+}
+
+.all-review-btn{
+    display: flex;
+    justify-content: center;
+}
+.all-review-btn button{
+    background-color: transparent;
+    border: 1px solid var(--font-color);
+    padding: 10px 30px;
+    border-radius: 100px;
+    font-size: 17px;
+    color: var(--font-color);
+}
+
+.review-container hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.review-container .review-txt{
+    color: var(--text-color);
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Poppins';
+    text-align: justify;
+}
+
+
+.slick-dots li.slick-active button:before {
+    color: var(--font-color) !important;
+    opacity: 1 !important;
+}

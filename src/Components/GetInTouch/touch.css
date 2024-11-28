@@ -1,0 +1,111 @@
+
+
+.touch-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Roboto';
+}
+.touch-bg{
+    overflow: hidden;
+}
+
+.touch-background{
+    overflow: hidden !important;
+}
+
+.touch-img{
+    overflow: hidden;
+    max-width: 100vw !important;
+}
+.touch-section .touch-bg{
+    opacity: 0.6;
+    overflow: hidden;
+}
+
+.text-content{
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-part{
+    position: absolute;
+     top: 50px;
+    left: 100px;
+    padding: 30px;
+}
+
+.left-part .top-part h1{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 91px;
+    color: var(--font-color);
+}
+
+.touch-section .left-part .top-part{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.touch-section .left-part .top-part .btn button{
+    border: none;
+    background-color: var(--text-color);
+    color: #ffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.first-btn{
+    display: flex;
+    gap: 20px;
+}
+
+
+.right-part{
+    position: absolute;
+    top: 30%;
+    right: 100px;
+    padding: 30px;
+}
+
+.right-part{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.right-part .comment{
+    background-color: var(--comment-color);
+    width: max-content;
+    padding: 10px;
+    color: #ffff;
+    border-radius: 10px;
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 400;
+}
+
+.right-part .below-comment{
+    background-color: var(--comment-color);
+    width: max-content;
+    padding: 10px;
+    color: #ffff;
+    border-radius: 10px;
+}
+
+@media (max-width: 1042px) {
+
+    .right-part {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 70%;
+        right: 100px;
+        padding: 30px;
+    }
+}
